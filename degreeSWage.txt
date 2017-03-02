@@ -1,0 +1,308 @@
+Petroleum Engineering		$97k
+Physician Assistant Studies		$85k
+Computer Science & Engineering		$71k
+CSE		$71k
+Mining Engineering		$70k
+Chemical Engineering		$70k
+Computer Engineering		$70k
+CE		$70k
+Nuclear Engineering		$68k
+Electrical & Computer Engineering		$68k
+ECE		$68k
+Electrical Engineering		$67k
+EE		$67k
+Systems Engineering		$66k
+Aerospace Engineering		$65k
+Dental Hygiene		$65k
+Computer Science		$65k
+CS		$65k
+Software Engineering		$65k
+Electrical & Electronics Engineering		$64k
+EEE		$64k
+Industrial Engineering		$64k
+IE		$64k
+Mechanical Engineering		$63k
+ME		$63k
+Aeronautical Engineering		$63k
+Engineering Management		$63k
+Biomedical Engineering		$63k
+BME		$63k
+Engineering		$63k
+Manufacturing Engineering		$62k
+Architectural Engineering		$62k
+Electronics Engineering		$61k
+Packaging Science		$61k
+Actuarial Science		$61k
+Physical Therapy		$60k
+Industrial Engineering Technology		$60k
+Informatics		$60k
+Electrical Engineering Technology		$60k
+EET		$60k
+Construction Engineering		$60k
+Construction Engineering Management		$59k
+Manufacturing Engineering Technology		$59k
+Structural Engineering		$59k
+SE		$59k
+Information Security		$58k
+Management Information Systems		$58k
+MIS		$58k
+Diagnostic Medical Sonography		$58k
+Mechanical Engineering Technology		$58k
+MET		$58k
+Nursing		$57k
+Construction Management		$57k
+Statistics		$57k
+Civil Engineering		$57k
+Management Science		$57k
+Information Systems Security		$57k
+Industrial Distribution		$57k
+Business Information Systems		$56k
+Information Systems		$56k
+IS		$56k
+Applied Mathematics		$56k
+Building Construction		$56k
+BC		$56k
+Real Estate		$55k
+Industrial Technology		$55k
+Nuclear Medicine Technology		$55k
+Physics		$55k
+Agricultural Engineering		$55k
+AE		$55k
+Occupational Health and Safety		$55k
+Operations Management		$55k
+OM		$55k
+Supply Chain Management		$54k
+Building Construction Management		$54k
+Computer Information Systems		$54k
+CIS		$54k
+Information Systems Management		$54k
+Mathematics		$54k
+Aeronautics		$54k
+Economics		$54k
+Environmental Engineering		$54k
+Information Technology Management		$54k
+Finance		$53k
+Information Technology		$53k
+IT		$53k
+Organizational Development		$53k
+Construction Project Management		$52k
+Engineering Technology		$52k
+ET		$52k
+Technology Management		$52k
+Business Economics		$52k
+Industrial Management		$52k
+Logistics		$51k
+Computing		$51k
+Civil Engineering Technology		$51k
+CET		$51k
+Computer Programming		$50k
+Telecommunications Management		$50k
+Government		$50k
+Project Management		$49k
+Financial Management		$49k
+Clinical Laboratory Science		$49k
+International Business		$49k
+Industrial Design		$49k
+ID		$49k
+Medical Laboratory Technology		$48k
+Accounting		$48k
+Entrepreneurship		$48k
+Medical Laboratory Science		$48k
+Transportation & Logistics Management		$48k
+Law		$48k
+Environmental Management		$47k
+Computer Information Systems		$47k
+Leadership		$47k
+Organizational Behavior		$47k
+Computer Networking Systems		$47k
+Public Affairs		$47k
+Food Science		$47k
+International Relations		$46k
+Technical Management		$46k
+Respiratory Therapy		$46k
+Business Administration		$46k
+Business Management		$46k
+Chemistry		$46k
+Agronomy		$46k
+Politics		$46k
+Molecular Biology		$45k
+Communication Design		$45k
+Marketing		$45k
+Marketing Management		$45k
+Practical Nursing		$45k
+Technical Communication		$45k
+American Studies		$45k
+Architecture		$45k
+Financial Accounting		$45k
+Radiologic Technology		$45k
+General Business		$45k
+Management		$45k
+Geographic Information Systems		$45k
+GIS		$45k
+Geology		$45k
+Biochemistry		$45k
+BCH		$45k
+Philosophy		$45k
+Microbiology		$45k
+Linguistics		$44k
+Urban Studies		$44k
+Business Communication		$44k
+Landscape Architecture		$44k
+Dietetics		$44k
+Political Science		$44k
+PolySci		$44k
+International Affairs		$44k
+Industrial Psychology		$44k
+Organizational Management		$44k
+French Language		$44k
+Organizational Leadership		$44k
+Geography		$44k
+Meteorology		$44k
+Computer Aided Drafting & Design		$43k
+CADD		$43k
+Environmental Science		$43k
+International Studies		$43k
+Agribusiness		$43k
+Interior Architecture		$43k
+Biological Sciences		$43k
+Environmental Design		$43k
+Pre-Medicine		$43k
+Technical Writing		$43k
+Foreign Languages		$42k
+Advertising Design		$42k
+Design		$42k
+Human Resources Management		$42k
+HRM		$42k
+Web Design		$42k
+Pre-law		$42k
+History		$42k
+Communication		$42k
+American History (United States)		$42k
+Speech Communication		$42k
+Aviation Management		$42k
+Human Resources		$42k
+HR		$42k
+Health Information Management		$42k
+General Science		$42k
+Environmental Studies		$41k
+Forestry		$41k
+Advertising		$41k
+Fashion Design		$41k
+Film Production		$41k
+Organizational Communication		$41k
+Fashion Merchandising		$41k
+Journalism		$41k
+English Literature		$41k
+Cultural Anthropology		$41k
+Environmental Biology		$41k
+Foods & Nutrition		$41k
+FNN		$41k
+Humanities		$41k
+Public Administration		$41k
+Agriculture		$41k
+Art History		$41k
+Biology		$41k
+Digital Media		$41k
+Criminal Justice		$41k
+Telecommunications		$41k
+Nutrition		$41k
+Media Production		$41k
+Visual Communication Design		$41k
+Graphic Communication		$40k
+Hospitality Management		$40k
+Visual Communications		$40k
+Human Resources Development		$40k
+Literature		$40k
+Sociology		$40k
+Theatre		$40k
+Women's Studies		$40k
+Spanish Language		$40k
+Legal Studies		$40k
+Mass Communication		$40k
+Secondary Education		$40k
+Public Relations		$40k
+PR		$40k
+Communication Arts		$40k
+Graphic Design		$40k
+Anthropology		$40k
+Music Performance		$40k
+Film Studies		$40k
+Interdisciplinary Studies		$40k
+Social Science		$40k
+Interior Design		$40k
+Liberal Studies		$40k
+Media Arts		$40k
+Visual Arts		$40k
+VA		$40k
+Administration		$39k
+Art & Design		$39k
+AND		$39k
+Criminology		$39k
+Natural Resource Management		$39k
+Physical Education Teaching		$39k
+Theater		$39k
+Health Care Administration		$39k
+Media Communication		$39k
+Liberal Arts		$39k
+Music Business		$39k
+Sports Management		$39k
+Criminal Justice Administration		$39k
+Illustration		$39k
+Creative Writing		$39k
+Education		$39k
+General Studies		$39k
+Religious Studies		$38k
+Broadcast Journalism		$38k
+Exercise Physiology		$38k
+Fine Arts		$38k
+Health Sciences		$38k
+Music		$38k
+Psychology		$38k
+Public Health		$38k
+PH		$38k
+Dance		$38k
+Parks & Recreation Management		$38k
+Photography		$38k
+Writing		$38k
+Health Care Management		$38k
+Kinesiology		$38k
+Recreation Management		$38k
+Religion		$38k
+Secondary English Teacher Education		$38k
+Horticulture		$38k
+Theology		$38k
+Community Health Education		$37k
+Painting		$37k
+Theatre Arts		$37k
+Graphic Design, Illustration		$37k
+Music Teacher Education		$37k
+Human Development		$37k
+Studio Art		$37k
+Health Administration		$37k
+Art		$36k
+Health Services Administration		$36k
+Biblical Studies		$36k
+Athletic Training		$36k
+English Teacher Education		$36k
+Exercise Science		$36k
+Animal Science		$36k
+Behavioral Science		$36k
+Health		$36k
+Broadcast Communication		$36k
+Zoology		$36k
+Art Teacher Education		$35k
+Paralegal Studies		$35k
+Therapeutic Recreation		$35k
+Technical Theatre		$35k
+Special Education		$35k
+Early Childhood Education		$35k
+Elementary Education		$35k
+Human Services		$34k
+HS		$34k
+Social Work		$34k
+SW		$34k
+Culinary Arts		$33k
+CA		$33k
+Youth Ministry		$33k
+Pastoral Ministry		$33k
+Child Development		$32k
