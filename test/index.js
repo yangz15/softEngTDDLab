@@ -2,7 +2,7 @@
 
 var test = require('tape');
 // Object containing the interns we want to evaluate
-var potentialHires = require('../input/groupOne.json');
+var potentialHires = require('./input/groupOne.json');
 var interns = potentialHires.interns;
 
 var recruiter = require('../recruiter.js');
@@ -69,7 +69,7 @@ test('util.sortInternObjects', function(t) {
 //   	t.fail('does not pass condition');
 //   }
 
-//   // or an actual comparison like t.equal
+// and/or an actual comparison like t.equal();
 
 //   t.end();
 // });
