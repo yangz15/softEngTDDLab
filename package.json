@@ -4,7 +4,7 @@
   "description": "The starting point for a in-class Lab written for a Software Engineering class",
   "main": "recruiter.js",
   "scripts": {
-    "test": "test/index.js | tap-spec"
+    "test": "node test/index.js | tap-spec"
   },
   "repository": {
     "type": "git",

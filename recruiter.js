@@ -1,8 +1,8 @@
 'use strict';
 
 // Object containing starting wages for various 4 year degrees
-var degreeSWage = require('degreeSWage.json');
-var util = require('util.js');
+var degreeSWage = require('./degreeSWage.json');
+var util = require('./util.js');
 
 //TODO: You need to write this function AND utilize it.
 // bracketFromGPA(decimal GPA);
@@ -37,7 +37,7 @@ function recruiter(internArr) {
 	// We really want to add our sorting number "metric" to objects (it really is this easy)
 	internArr[index].metric = imetric;
 
-	// and then sort them all
+	// and then sort them all (it doesn't return anything, it modifies the array sent)
 	util.sortInternObjects( /*Array of hireables with "metric" as a property*/ );
 
 
