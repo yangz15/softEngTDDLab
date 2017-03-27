@@ -2,6 +2,7 @@
 
 // Object containing starting wages for various 4 year degrees
 var degreeSWage = require('./degreeSWage.json');
+// File containing some of our utility functions (already written)
 var util = require('./util.js');
 
 //TODO: You need to write this function AND utilize it.
@@ -11,11 +12,11 @@ function bracketFromGPA(gpa) {
 	return; //some form of bracket number
 }
 
-// recruiter( Array of hireables )
+// TODO: recruiter( Array of hireables )
 function recruiter(internArr) {
 
 	// Below is just to help show the syntax you need,
-	// you'll need to process all of the hireables like this one and sort
+	// you'll need to process ALL of the hireables like this one and sort
 	var index = 0;
 	var iname = internArr[index].name;
 	var idegr = internArr[index].degree;
