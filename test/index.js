@@ -30,26 +30,32 @@ test('util.sortInternObjects', function(t) {
 	inputArr[2].metric = 2;
 	inputArr[3].metric = 0;
 
-	var expectedArr = [
-		inputArr[0],
-		inputArr[2],
-		inputArr[1],
-		inputArr[3]
+	// Lets get the input sorted manually, in the expected array
+	var expectedArr = inputArr.slice();
+	expectedArr = [
+		expectedArr[0], // 3
+		expectedArr[2], // 2
+		expectedArr[1], // 1
+		expectedArr[3]  // 0
 	];
 
+	// Lets make a copy of the input to sort with the function 
 	var actualArr = inputArr.slice();
 
+	// Sort by reference (in-place)
 	util.sortInternObjects(actualArr);
 
   t.deepEqual(actualArr, expectedArr, 'bascially sorts by metric');
 
+  // Let's throw a wrench in it and change our metrics
   actualArr[0].metric = 0;
+  inputArr[0].metric = 0;
 
   expectedArr = [
-		inputArr[2],
-		inputArr[1],
-		inputArr[0],
-		inputArr[3]
+		inputArr[2], // 2
+		inputArr[1], // 1
+		inputArr[0], // 0
+		inputArr[3]  // 0
 	];
 
 	util.sortInternObjects(actualArr);
