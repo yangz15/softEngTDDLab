@@ -67,15 +67,81 @@ test('util.sortInternObjects', function(t) {
 
 // Your tests go here  (methods reference: https://www.npmjs.com/package/tape#testname-opts-cb )
 
-// test('Test Name', function(t) {
+test('bracketFromGPA', function(t) {
 
-//   if (/*some condition*/) {
-//   	t.pass('passes condition');
-//   } else {
-//   	t.fail('does not pass condition');
-//   }
+  t.deepEqual( recruiter.bracketFromGPA(3.5), 3, "returns bracket three");
+  t.deepEqual( recruiter.bracketFromGPA(3.4), 2, "returns bracket two");
+  t.deepEqual( recruiter.bracketFromGPA(2.99), 1, "returns bracket one");
+  t.deepEqual( recruiter.bracketFromGPA(2.49), 0, "returns bracket zero (unhirable)");
 
-// and/or an actual comparison like t.equal();
+  t.end();
+});
 
-//   t.end();
-// });
+
+test('recruiter function', function(t) {
+
+	// Don't hire people with degrees we don't recognize
+	t.comment("Don't hire people with degrees we don't recognize");
+	var collArr = [
+		interns[0],
+		interns[6],
+		interns[7]
+	];
+
+	var inputArr = collArr.slice();
+	inputArr[1].degree = "waffle maker";
+	inputArr[2].degree = "";
+
+	var retArr = [];
+	retArr = recruiter.recruiter(inputArr);
+	t.deepEqual(retArr.length, 1, "Returns expected number of interns");
+	t.deepEqual(retArr[0].degree, "advertising", "Returns the accepted degree");
+
+
+
+
+
+
+	// Other tests go here.
+
+
+
+
+
+
+
+
+	//Sort secondarily by GPA bracket
+	t.comment("Sort secondarily by GPA bracket");
+
+	collArr = [
+		interns[13],
+		interns[14],
+		interns[15],
+		interns[16]
+	];
+
+	inputArr = collArr.slice();
+
+	inputArr[0].experiance = 0;
+	inputArr[0].degree = "human resources management";
+	inputArr[3].experiance = 0;
+	inputArr[3].degree = "human resources management";
+
+
+	t.ok(inputArr[0].gpa === 3.1 && 
+		inputArr[1].gpa === 2.07 &&
+		inputArr[2].gpa === 2.32 &&
+		inputArr[3].gpa === 3.93, "test input is as expected");
+
+
+	retArr = recruiter.recruiter(inputArr);
+
+	t.deepEqual(retArr.length, 2, "Returns expected number of interns, removes GPAs below 2.5");
+	t.deepEqual(retArr[0].gpa, 3.93, "Returns expected GPA order");
+	t.ok(retArr[0].metric > retArr[1].metric, "Returns metrics in order");
+
+
+
+  t.end();
+});

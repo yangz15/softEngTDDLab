@@ -39,7 +39,7 @@ function recruiter(internArr) {
 	internArr[index].metric = imetric;
 
 	// and then sort them all (it doesn't return anything, it modifies the array sent)
-	util.sortInternObjects( /*Array of hireables with "metric" as a property*/ );
+	// util.sortInternObjects( /*Array of hireables with "metric" as a property*/ );
 
 
 	// Output 
