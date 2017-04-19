@@ -98,18 +98,31 @@ test('recruiter function', function(t) {
 	t.deepEqual(retArr[0].degree, "advertising", "Returns the accepted degree");
 
 
+	t.comment("Degrees in astrology can always be hired - but only as the last resort");
+    collArr = [
+        interns[0],
+        interns[1],
+        interns[2],
+        interns[3]
+    ];
 
+    inputArr = collArr.slice();
+	inputArr[0].degree = "astrology";
+	inputArr[0].gpa = 0;
+	inputArr[0].experiance = 0;
+    inputArr[1].degree = "astrology";
+    inputArr[1].gpa = 4;
+    inputArr[1].experiance = 10;
 
+    inputArr[2].experiance = inputArr[3].experiance;
+    inputArr[2].degree = inputArr[3].degree;
+    inputArr[2].gpa = 4;
+    inputArr[3].gpa = 2.5;
 
-
-	// Other tests go here.
-
-
-
-
-
-
-
+    retArr = recruiter.recruiter(inputArr);
+    t.ok(retArr[0].metric > retArr[1].metric, "Returns metrics in order");
+    t.deepEqual(retArr.length, 4, "Returns expected number of interns");
+	t.ok(retArr[3].degree === "astrology" && retArr[2].degree === "astrology", "The last element in return array is astrology major with any GPA");
 
 	//Sort secondarily by GPA bracket
 	t.comment("Sort secondarily by GPA bracket");
