@@ -98,15 +98,14 @@ test('recruiter function', function(t) {
 	t.deepEqual(retArr[0].degree, "advertising", "Returns the accepted degree");
 
 
+	//my test
 	t.comment("Degrees in astrology can always be hired - but only as the last resort");
-    collArr = [
-        interns[0],
-        interns[1],
-        interns[2],
-        interns[3]
-    ];
+
+	//build the test input intern
+    collArr = [interns[0], interns[1], interns[2], interns[3]];
 
     inputArr = collArr.slice();
+    //set inputArr[0] and [1] to be astrology major
 	inputArr[0].degree = "astrology";
 	inputArr[0].gpa = 0;
 	inputArr[0].experiance = 0;
@@ -114,14 +113,18 @@ test('recruiter function', function(t) {
     inputArr[1].gpa = 4;
     inputArr[1].experiance = 10;
 
+    //the metric of inputArr[2] should be higher than [3]
     inputArr[2].experiance = inputArr[3].experiance;
     inputArr[2].degree = inputArr[3].degree;
     inputArr[2].gpa = 4;
     inputArr[3].gpa = 2.5;
 
     retArr = recruiter.recruiter(inputArr);
+    //if the metric is in order
     t.ok(retArr[0].metric > retArr[1].metric, "Returns metrics in order");
+    //the number of interns is correct
     t.deepEqual(retArr.length, 4, "Returns expected number of interns");
+    //the last two have the astrology major
 	t.ok(retArr[3].degree === "astrology" && retArr[2].degree === "astrology", "The last element in return array is astrology major with any GPA");
 
 	//Sort secondarily by GPA bracket
@@ -140,7 +143,6 @@ test('recruiter function', function(t) {
 	inputArr[0].degree = "human resources management";
 	inputArr[3].experiance = 0;
 	inputArr[3].degree = "human resources management";
-
 
 	t.ok(inputArr[0].gpa === 3.1 && 
 		inputArr[1].gpa === 2.07 &&

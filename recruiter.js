@@ -45,24 +45,25 @@ function recruiter(internArr) {
         // You should use these functions at some point
         ivalue = util.getValueFromWageAndExp( iwage, iexp );
         ibracket = bracketFromGPA ( igpa );
-        if ((ibracket === 0 || iwage === undefined) && idegr !== "astrology" )
+        if ((ibracket === 0 || iwage === undefined) && idegr !== "astrology" ) //if we cannot recognize its degree or its gpa is too low (expect astrology)
         {
+            //remove the intern
             internArr.splice(index, 1);
             num_interns --;
             index --;
         }
         else
         {
-            // Hmm... this doesn't seem to follow the spec - fix it
-            imetric = ivalue + ibracket;
+            imetric = ivalue * 30 + ibracket;
 
-            // We really want to add our sorting number "metric" to objects (it really is this easy)
             internArr[index].metric = imetric;
         }
 
     }
 
-    util.sortInternObjects(internArr);
+    util.sortInternObjects(internArr);    //sort the interns by metric
+
+    //move the astrology to the end of the list
     num_interns = internArr.length;
     for(index = 0; index < num_interns; index++)
     {
